@@ -1,0 +1,4 @@
+- Real-time TCP audio transfer.
+- Multi-panel graphical interfaces for both Client and Server.
+- File selection and connection status messages.
+- Minimal dependencies — works with default CVI
