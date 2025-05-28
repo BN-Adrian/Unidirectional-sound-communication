@@ -14,12 +14,16 @@
 
      /* Panels and Controls: */
 
-#define  PANEL                            1
-#define  PANEL_IP_CTRL                    2
-#define  PANEL_PORT_CTRL                  3
-#define  PANEL_SELECT_FILE_BTN            4       /* callback function: OnSelectFile */
-#define  PANEL_START_BTN                  5       /* callback function: OnStart */
-#define  PANEL_STATUS_MSG                 6
+#define  MAINPNL                          1       /* callback function: MainPanelCB */
+#define  MAINPNL_CLIENT_IP                2
+#define  MAINPNL_SERVER_IP                3
+#define  MAINPNL_CLIENT_Name              4
+#define  MAINPNL_SERVER_Name              5
+#define  MAINPNL_CONNECTED                6
+#define  MAINPNL_COMMANDBUTTON            7       /* callback function: fConnect */
+#define  MAINPNL_GRAPH_2                  8
+#define  MAINPNL_DECORATION               9
+#define  MAINPNL_NUMERIC                  10
 
 
      /* Menu Bars, Menus, and Menu Items: */
@@ -29,8 +33,8 @@
 
      /* Callback Prototypes: */
 
-int  CVICALLBACK OnSelectFile(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
-int  CVICALLBACK OnStart(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
+int  CVICALLBACK fConnect(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);
+int  CVICALLBACK MainPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);
 
 
 #ifdef __cplusplus

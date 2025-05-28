@@ -1,7 +1,7 @@
 [Workspace Header]
 Version = 900
-Pathname = "/c/Users/Adrian/Desktop/proiect/server/server.cws"
-CVI Dir = "/g/national"
+Pathname = "/c/Users/Adrian/Desktop/nat/server/server.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi90"
 CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI90"
 CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
@@ -11,10 +11,10 @@ Number of Projects = 1
 Active Project = 1
 Project 0001 = "server.prj"
 Drag Bar Left = 243
-Window Top = 143
-Window Left = 136
-Window Bottom = 1123
-Window Right = 1485
+Window Top = 163
+Window Left = 2612
+Window Bottom = 1371
+Window Right = 3557
 Maximized = False
 Maximized Children = True
 Max Number Of Errors = 20
@@ -45,35 +45,44 @@ Batch Build Debug = False
 Force Rebuild = False
 
 [File 0001]
-Path = "/c/Users/Adrian/Desktop/proiect/server/server.c"
-File Type = "CSource"
-Disk Date = 3829560371
+Path = "/c/Users/Adrian/Desktop/nat/server/server.uir"
+File Type = "User Interface Resource"
+Disk Date = 3831298959
 In Projects = "1,"
-Window Top = 188
-Window Left = 90
-Window Z-Order = 1
-Source Window State = "1,0,95,0,0,0,0,0,0,133,0,132,0,132,0,51,30,0,3,9,349,687,1,0,"
+Window Top = 33
+Window Left = 10
+Window Height = 349
+Window Width = 687
+Window Z-Order = 3
 
 [File 0002]
-Path = "/c/Users/Adrian/Desktop/proiect/server/server.h"
+Path = "/c/Users/Adrian/Desktop/nat/server/server.c"
+File Type = "CSource"
+Disk Date = 3831298999
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 1
+Source Window State = "1,237,237,237,58,61,61,0,0,82,0,51,0,9,0,64,59,0,73,22,349,687,1,14,"
+
+[File 0003]
+Path = "/c/Users/Adrian/Desktop/nat/server/server.h"
 File Type = "Include"
-Disk Date = 3829560376
+Disk Date = 3831298815
 In Projects = "1,"
 Window Top = 281
 Window Left = 138
 Window Z-Order = 2
-Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,32,26,349,687,1,0,"
+Source Window State = "1,27,27,27,9,26,26,0,3,80,0,0,0,0,0,25,0,0,27,9,349,687,1,0,"
 
-[File 0003]
-Path = "/c/Users/Adrian/Desktop/proiect/server/server.uir"
-File Type = "User Interface Resource"
-Disk Date = 3829560376
+[File 0004]
+Path = "/c/Users/Adrian/Desktop/nat/SBDAQ/SBDAQ.H"
+File Type = "Include"
+Disk Date = 3831186827
 In Projects = "1,"
 Window Top = 157
 Window Left = 74
-Window Height = 349
-Window Width = 687
-Window Z-Order = 3
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,77,0,115,6,349,1023,1,0,"
 
 [Build Options 0001]
 Generate Browse Info = True
@@ -103,6 +112,9 @@ Always show confirmation dialog = True
 
 [DLL Debugging Support 0001]
 External Process Path = ""
+
+[DLLs Used By Executable 0001]
+DLL 0001 = "/c/Users/Adrian/Desktop/nat/server/SBDAQ.dll"
 
 [Command Line Args 0001]
 Command Line Args = ""

@@ -1,7 +1,7 @@
 [Workspace Header]
 Version = 900
-Pathname = "/c/Users/Adrian/Desktop/proiect/client/client.cws"
-CVI Dir = "/g/national"
+Pathname = "/c/Users/Adrian/Desktop/nat/client/client.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi90"
 CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
 CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI90"
 CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
@@ -11,9 +11,9 @@ Number of Projects = 1
 Active Project = 1
 Project 0001 = "client.prj"
 Drag Bar Left = 243
-Window Top = 231
-Window Left = 1403
-Window Bottom = 1032
+Window Top = 129
+Window Left = 1388
+Window Bottom = 1340
 Window Right = 2370
 Maximized = False
 Maximized Children = True
@@ -45,35 +45,44 @@ Batch Build Debug = False
 Force Rebuild = False
 
 [File 0001]
-Path = "/c/Users/Adrian/Desktop/proiect/client/client.uir"
+Path = "/c/Users/Adrian/Desktop/nat/client/client.uir"
 File Type = "User Interface Resource"
-Disk Date = 3829559105
+Disk Date = 3831299160
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
 Window Height = 349
 Window Width = 687
-Window Z-Order = 2
+Window Z-Order = 3
 
 [File 0002]
-Path = "/c/Users/Adrian/Desktop/proiect/client/client.c"
-File Type = "CSource"
-Disk Date = 3829558695
+Path = "/c/Users/Adrian/Desktop/nat/client/client.h"
+File Type = "Include"
+Disk Date = 3831299160
 In Projects = "1,"
 Window Top = 95
 Window Left = 42
-Window Z-Order = 1
-Source Window State = "1,57,57,57,15,28,15,0,0,85,0,94,0,94,0,40,23,0,35,19,349,687,1,0,"
+Window Z-Order = 2
+Source Window State = "1,25,25,25,9,24,24,0,3,80,0,0,0,0,0,25,0,0,25,9,349,687,1,0,"
 
 [File 0003]
-Path = "/c/Users/Adrian/Desktop/proiect/client/client.h"
-File Type = "Include"
-Disk Date = 3829559105
+Path = "/c/Users/Adrian/Desktop/nat/client/client.c"
+File Type = "CSource"
+Disk Date = 3831299278
 In Projects = "1,"
 Window Top = 126
 Window Left = 58
-Window Z-Order = 3
-Source Window State = "1,0,38,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,34,52,349,687,1,0,"
+Window Z-Order = 1
+Source Window State = "1,94,94,94,23,35,35,0,0,87,0,5,0,0,0,64,51,0,83,61,349,687,1,11,"
+
+[File 0004]
+Path = "/c/Users/Adrian/Desktop/nat/SBDAQ/SBDAQ.H"
+File Type = "Include"
+Disk Date = 3831186827
+In Projects = "1,"
+Window Top = 157
+Window Left = 74
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,349,687,1,0,"
 
 [Build Options 0001]
 Generate Browse Info = True
@@ -103,6 +112,9 @@ Always show confirmation dialog = True
 
 [DLL Debugging Support 0001]
 External Process Path = ""
+
+[DLLs Used By Executable 0001]
+DLL 0001 = "/c/Users/Adrian/Desktop/nat/client/SBDAQ.dll"
 
 [Command Line Args 0001]
 Command Line Args = ""
